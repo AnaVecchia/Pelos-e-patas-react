@@ -1,0 +1,88 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #794d2d;
+}
+
+.logo {
+  width: 20%;
+  margin-bottom: none;
+  align-self: flex-start;
+}
+
+.login-form {
+  width: 300px;
+  border: 1px solid #794d2d;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #b0784f;
+  margin: 0;
+  /* Remova a margem */
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input {
+  width: 98%;
+  padding: 12px;
+  /* Aumente o tamanho do texto */
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  font-size: 16px;
+  /* Aumente o tamanho da fonte */
+}
+
+button {
+  width: 98%;
+  padding: 12px;
+  background-color: #ff9a03;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  /* Aumente o tamanho da fonte */
+}
+
+button:hover {
+  background-color: #ff9a03;
+}
+
+a {
+  color: #ff9a03;
+  text-decoration: none;
+  margin-left: 4px;
+  font-size: 16px;
+  /* Aumente o tamanho da fonte */
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+input::placeholder {
+  color: #a5a3a3;
+  font-size: 16px;
+  /* Ajuste o tamanho conforme necessário */
+}
+
+.header-image {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.header-image-content {
+  width: 15%;
+
+}
